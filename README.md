@@ -2,9 +2,9 @@
 
 A simple PDF question-answering application built using Retrieval-Augmented Generation (RAG). Upload a PDF and ask questions based on its contents.
 
-### 🚀 Live Demo
+### Live Demo
 
-[**Try the PDF Chatbot**](YOUR_STREAMLIT_APP_URL)
+[**Try the PDF Chatbot**](https://pdf-chatbot-rag-tvjl56z5stdjuq2gji5fs7.streamlit.app/)
 
 ### Features
 
