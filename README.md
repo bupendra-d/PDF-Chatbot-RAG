@@ -1,16 +1,18 @@
-# PDF Chatbot
+# Conversational PDF RAG
 
-A simple PDF question-answering application built using Retrieval-Augmented Generation (RAG). Upload a PDF and ask questions based on its contents.
+A conversational PDF question-answering application built using Retrieval-Augmented Generation (RAG). Upload a PDF, ask questions based on its contents, and continue the conversation with context-aware follow-up questions.
 
 ### Live Demo
 
-[**Try the PDF Chatbot**](https://pdf-chatbot-rag-tvjl56z5stdjuq2gji5fs7.streamlit.app/)
+[**Try the Conversational PDF Chatbot**](YOUR_STREAMLIT_APP_LINK)
 
 ### Features
 
 - Upload and process PDF documents.
 - Ask questions based on document contents.
 - Retrieve relevant passages using semantic search.
+- Understand follow-up questions using conversational history.
+- Maintain chat history during the active session.
 - View source passages and page numbers.
 - Generate answers using a Groq-hosted LLM.
 
@@ -23,8 +25,8 @@ Python · Streamlit · LangChain · FAISS · Hugging Face · Groq
 **1. Clone the repository**
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd pdf-chatbot-rag
+git clone https://github.com/bupendra-d?tab=repositories
+cd Conversational-PDF-RAG
 ```
 
 **2. Install dependencies**
@@ -53,7 +55,8 @@ Deploy the repository using [Streamlit Community Cloud](https://share.streamlit.
 
 ### Note
 
-The chatbot uses retrieved passages from the uploaded PDF to generate answers. Responses may not always be accurate, so verify important information against the original document. Scanned PDFs may require OCR.
+The chatbot uses retrieved passages from the uploaded PDF to generate answers. Conversational history helps understand follow-up questions but is maintained only during the active session. Responses may not always be accurate, so verify important information against the original document. Scanned PDFs may require OCR.
 
 ---
+
 Developed using Python, LangChain, and Streamlit.
